@@ -1,19 +1,19 @@
 {
-  "thumb": "https://telegra.ph/file/f9b2ed3ff30d538f086ae.jpg",
-  "namebot": "Simple",
-  "botNumber": "14162743926@s.whatsapp.net",
-  "owner": ["593991398786@s.whatsapp.net"],
-  "instagram": "https://instagram.com/c4rl0s_9e",
-  "author": "CRLS",
-  "session": "simple-md",
-  "email": "carlos.e.escobarmc@gmail.com",
+  "thumb": "https://images.alphacoders.com/612/612523.jpg",
+  "namebot": "Mikasa-bot",
+  "botNumber": "5493814981952@s.whatsapp.net",
+  "owner": ["5493865362492@s.whatsapp.net"],
+  "instagram": "https://instagram.com/hyzddevolper",
+  "author": "Hyzd",
+  "session": "qr",
+  "email": "jyzddvpr@gmail.com",
   "self": false,
   "packInfo":{
     "packname": "",
-    "author": "Beta ✓"
+    "author": "乂 Mikasa-bot 乂"
   },
   "ignore": {
 		"directory": ["umum"]
 	},
-	"timezone": "America/Guayaquil"
+	"timezone": "America/Buenos_Aires"
 }
