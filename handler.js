@@ -7,7 +7,7 @@ const { logger } = Baileys.DEFAULT_CONNECTION_CONFIG;
 const { serialize } = require("./lib/serialize");
 const { color, getAdmin, isUrl } = require("./lib/function");
 
-const prefix = ".";
+const prefix = /";
 const multi_pref = new RegExp("^[" + "!#%&?/;:,.~-+=".replace(/[|\\{}()[\]^$+*?.\-\^]/g, "\\$&") + "]");
 const owner = config.owner
 
