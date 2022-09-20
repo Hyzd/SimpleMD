@@ -85,8 +85,8 @@ module.exports = handler = async (mek, conn, map) => {
 			const cotent = content.caption || content.text || "";
 			if (options.isTranslate) {
 				const footer = content.footer || false;
-				const customLang = "en"
-				const language = "en"
+				const customLang = "es"
+				const language = "es"
 				if (customLang) {
 					if (footer) footer = await rzky.tools.translate(footer, language);
 					translate = await rzky.tools.translate(cotent, language);
@@ -103,13 +103,13 @@ module.exports = handler = async (mek, conn, map) => {
 			options.adReply
 				? (content.contextInfo = {
 						externalAdReply: {
-							title: "© Simple 饺",
+							title: "© Mikasa 饺",
 							mediaType: 1,
-							//renderLargerThumbnail: true,
+							renderLargerThumbnail: true,
 							showAdAttribution: true,
 							body: config.namebot,
-							thumbnail: await conn.getBuffer("https://telegra.ph/file/915b6ff0ddf1f7d145880.jpg"),
-							sourceUrl: "https://chat.whatsapp.com/F2jZdISqMvtHeCVLHasSXP",
+							thumbnail: await conn.getBuffer("https://images.alphacoders.com/612/612523.jpg"),
+							sourceUrl: "https://wa.me/5493865362492",
 						},
 				  })
 				: "";
